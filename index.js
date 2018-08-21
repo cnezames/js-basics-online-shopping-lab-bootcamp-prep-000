@@ -58,7 +58,9 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
+  const totalcart = []
   if (!cardNumber) {
     return "Sorry, we don't have a credit card on file for you."
   }
+  cart.push(totalcart)
 }
